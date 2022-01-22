@@ -30,9 +30,8 @@ void GPIO_Init(){
 	// Enable the Clock for GPIOA
 	RCC->AHB1ENR |= RCC_AHB1ENR_GPIOAEN;
 
-	// Set PA5 and PA6 in alternate function mode, and PA0 in Input Mode
+	// Set PA5 and PA6 in alternate function mode
 	GPIOA->MODER |= ( GPIO_MODER_MODER5_1 | GPIO_MODER_MODER6_1 );
-	GPIOA->MODER &= ~GPIO_MODER_MODER0;
 
 	// Configuring PA5 and PA6 as pull down
 	GPIOA->PUPDR |= ( GPIO_PUPDR_PUPDR5_1 | GPIO_PUPDR_PUPDR6_1 );
