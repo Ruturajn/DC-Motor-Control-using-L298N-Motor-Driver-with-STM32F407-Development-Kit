@@ -11,11 +11,15 @@ project is as follows :
 | IN2 | PA6 |
 | GND | GND |
 
+
+
 The connections between the Battery(9V) and the driver module:
 
 | Battery 9V | L298N Motor Driver |
 |----|----|
 | Positive Terminal | Power |
 | Negative Terminal | GND |
+
+
 
 The terminals of the motor is connected to the *Output A* of the L298N Motor Driver. 
