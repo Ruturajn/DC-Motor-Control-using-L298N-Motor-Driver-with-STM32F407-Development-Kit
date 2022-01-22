@@ -6,7 +6,6 @@
  *            The Connections are as follows:
  *            PA5 (Connected to Channel 1 of TIM2) - IN1
  *            PA6 (Connected to Channel 1 of TIM3) - IN2
- *            PA0 - Push Button (For Changing Speed)
  *
  *            The motor runs at it's full speed of 300 RPM, at 12V. Since, for
  *            this project the motor is supplied with a 9V battery, the max.
